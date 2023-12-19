@@ -1,0 +1,53 @@
+.navbar{
+    display: flex;
+    flex-direction: row;
+    height: 67px;
+    font-family: 'Silkscreen', serif;
+    
+}
+.navbar li{
+    list-style: none;
+    margin:0 12px;
+    cursor: pointer;
+    
+
+}
+.navbar li a{
+    text-decoration: none;
+    color: black;
+}
+.navbar li a:hover{
+    background-color:rgb(255, 41, 41); 
+    color: white;
+    border:2px solid black;
+    border-radius: 4px;
+}
+
+#sign {
+    background-color: white;
+    border: 4px solid black;
+    border-radius: 8px;
+    height: auto;
+    width: 80%;
+    max-width: 400px;
+    padding: 20px;
+    margin: 15% auto;
+}
+
+.name,
+.email,
+.age,
+.newpassword,
+.confirmpassword {
+    padding: 10px;
+    margin: 10px 0;
+}
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+input[type="password"] {
+    width: 100%;
+    padding: 10px;
+    box-sizing: border-box;
+}
